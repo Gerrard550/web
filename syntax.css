@@ -13,17 +13,17 @@
     --h6-size: 22px;
 
     /* COLOR VARIABLES */
-    --green-1: #2aa88b;
-    --green-2: #318019;
+    --Myrtle-green-1: #30706b;
+    --Steel-blue:  #4993b3;
     --purple-1: #70348a;
     --purple-2: #3b0b4f;
-/* 
-    SPACING VARIABLES
+
+    /* SPACING VARIABLES */
 --spacing-sm: 8px;
 --spacing-md: 16px;
 --spacing-lg: 32px;
 --spacing-xl: 64px;
---standard-width: 1144px; */
+--standard-width: 128px;
 
 }
 
@@ -46,14 +46,14 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-top: var(--spacing-xl);
-    color: var(--green-1);
+    color: var(--Steel-blue);
     text-decoration: none;
 }
 
 h2 {
     font-family: var(--heading-font);
     font-size: var(--h2--size);
-    color: var(--green-2);
+    color: var(--Steel-blue);
 }
 
 p {
@@ -67,7 +67,7 @@ p {
 .navbar {
     width: 100%;
     border: 2px solid black;
-    background-color: aqua;
+    background-color: var(--Myrtle-green-1);
 
    
 }
@@ -107,6 +107,7 @@ p {
  }
 
 .menu {
+    color: white;
     display: inline;
     display: flex;
     justify-content: space-between;
@@ -117,15 +118,15 @@ p {
     
 }
 
-.pod {
-    opacity: 1;
+/* .pod {
+    opacity: 0;
 }
 
 .pod:hover {
-    opacity: 0;
+    opacity: 1;
     color: purple;
 
-}
+} */
 
 .menu a {
     text-decoration: none;
@@ -164,11 +165,13 @@ p {
 .icon {
     width: 30px;
     height: 30px;
+    
 }
 
 .icons {
     width: 30px;
     height: 30px;
+    
 }
 
 .btn {
@@ -184,7 +187,7 @@ p {
 }
 
 .btn:hover {
-    background-color: var(--green-2);
+    background-color: var(--Steel-blue);
     cursor: pointer;
     color: black;
 }
@@ -237,19 +240,19 @@ p {
     grid-area: drop8;
 }
 
-.photo img {
-    width: 90%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 160px;
-    margin: 20px 20px;
-    
-    
-}
-
 .photo {
     position: relative;
 }
+
+.photo img {
+    width: 90%;
+    height: 95dvh;
+    object-fit: cover;
+    border-radius: 160px;
+    margin: 20px 20px;
+}
+
+
 
 .photo .overlay {
     /* background-color: var(--green-1); */
@@ -264,7 +267,7 @@ p {
     margin: 0;
     font-size: 40px;
     font-weight: bolder;
-    color: var(--green-2);
+    color: var(--Myrtle-green-1);
     font-style: italic;
     letter-spacing: 2px;
     opacity: 1;
@@ -278,17 +281,42 @@ p {
     cursor: pointer;
 }
 
-#desc {
+.store {
+    position: relative;
+}
+
+.store img {
     
     margin: 30px 0 0 0;
    border-radius: 80px;
    float: left;
    padding: 12px;
+   object-fit: cover;
+   width: 100%;
+   height: 100dvh;
+
+   
 }
 
 .surp {
     text-decoration: none;
     font-weight: bold;
+}
+
+.store .underlay {
+    background-color: rgba(255,255,255, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
 }
 
 

@@ -1,0 +1,288 @@
+/* TEXT VARIABLES */
+:root {
+    --text-dark: black;
+    --text-light: white;
+    --text-grey: grey;
+    --body-font: "Edu VIC WA NT Beginner", cursive;
+    --heading-font: "Quicksand", sans-serif;
+    --h1-size: 82px;
+    --h2--size: 64px;
+    --h3-size: 44px;
+    --h4-size: 32px;
+    --h5-size: 28px;
+    --h6-size: 22px;
+
+    /* COLOR VARIABLES */
+    --green-1: #2aa88b;
+    --green-2: #318019;
+    --purple-1: #70348a;
+    --purple-2: #3b0b4f;
+
+}
+/* SPACING VARIABLES */
+--spacing-sm: 8px;
+--spacing-md: 16px;
+--spacing-lg: 32px;
+--spacing-xl: 64px;
+--standard-width: 1144px;
+
+ 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--text-dark);
+    width: 100%;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    color: var(--green-1);
+    text-decoration: none;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    font-size: 60px;
+    color: var(--green-2);
+}
+
+p {
+    font-family: var(--body-font);
+    font-size: 40px;
+    padding: 40px
+}
+
+
+
+.navbar {
+    width: 100%;
+    max-width: var(--standard-width);
+    border: 2px solid black;
+    background-color: aqua;
+
+   
+}
+
+
+.two-column {
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   box-sizing: border-box;
+   
+}
+
+.left {
+    width: 60%;
+    box-sizing: border-box;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 20px;
+    
+    
+}
+
+
+ .left img {
+    width: 200px;
+    height: 200px;
+    margin: 10px 0 10px 20px;
+    border-radius: 50%;
+    transition: transform 2s ease-in-out;
+ }
+
+.left img:hover {
+    cursor: pointer;
+    transform: scale(0.5);
+ }
+
+.menu {
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 20px;
+     
+}
+
+.menu a:hover {
+    color: var(--green-1);
+}
+
+.right {
+    width: 40%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0 0 0;
+    
+   
+}
+
+
+
+.right a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    height: 60px;
+    color: white ;
+    background-color: var(--purple-1);
+    border-radius: 20px;
+    box-shadow: 40px;
+    
+}
+
+.btn:hover {
+    background-color: var(--green-2);
+    cursor: pointer;
+    color: black;
+}
+
+/* GRID-SECTION */
+
+.photo-grid {
+    display: grid;
+    grid-template-areas: 
+    "drop1 drop1 drop2"
+    "drop4 drop5 drop3"
+    "drop6 drop7 drop8";
+    grid-gap: 12px;
+    width: 100%;
+    margin: auto;
+    
+}
+
+
+#drop1 {
+    grid-area: drop1;
+}
+
+#drop2 {
+    grid-area: drop2;
+}
+
+#drop3 {
+    grid-area: drop3;
+}
+
+
+#drop4 {
+    grid-area: drop4;
+}
+
+#drop5 {
+    grid-area: drop5;
+}
+
+#drop6 {
+    grid-area: drop6;
+}
+
+#drop7 {
+    grid-area: drop7;
+}
+
+#drop8 {
+    grid-area: drop8;
+}
+
+.photo img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 160px;
+    margin: 20px 20px;
+    
+    
+}
+
+.photo {
+    position: relative;
+}
+
+.photo .overlay {
+    /* background-color: var(--green-1); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bolder;
+    color: var(--green-2);
+    font-style: italic;
+    letter-spacing: 2px;
+    opacity: 1;
+    transition: all 0.2s ease-in;
+    
+
+}
+
+.photo .overlay:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+#desc {
+    
+    margin: 30px 0 0 0;
+   border-radius: 80px;
+   float: left;
+   padding: 12px;
+}
+
+.surp {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -14,7 +14,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="syntax.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <nav class="navbar">
@@ -23,9 +23,9 @@
           <ul class="menu">
             <li><a id="home" href="#home"> Home</a></li>
 
-            <li><a id="#about" href="#about">About</a></li>
+            <li><a target="_blank" id="#about" href="#about">About</a></li>
 
-            <li><a href="#">Collections</a></li>
+            <li><a target="_blank" href="collections.html">Collections</a></li>
 
             <li>
               <a id="#pod" href="#pod">Print On Demand</a>
@@ -142,51 +142,71 @@
       </button>
     </p>
 
-    <div class="photo-grid">
-      <div class="photo" id="pod1">
-        <img src="/images/pod1.JPG" alt="" />
-        <p class="overlay">Surprise Season Stores</p>
-      </div>
+    <!--IMAGE  SLIDER FOR POD -->
 
-      <div class="photo" id="pod2">
-        <img src="/images/pod2.JPG" alt="" />
-        <p class="overlay">Surprise Season Stores</p>
-      </div>
+    <section class="container">
+      <div class="slider-wrapper">
 
-      <div class="photo" id="pod3">
-        <img src="/images/pod3.JPG" alt="" />
-        <p class="overlay">Surprise Season Stores</p>
-      </div>
+        <div class="slider">
+          <img
+            id="slide-1"
+            src="/images/pod1.JPG"
+            alt="Print on demand images." />
+            
 
-      <div class="photo" id="pod4">
-        <img src="/images/pod4.JPG" alt="" />
-        <p class="overlay">Surprise Season Stores</p>
-      </div>
+          <img
+            id="slide-2"
+            src="/images/pod2.JPG"
+            alt="Print on demand images." />
 
-      <div class="photo" id="pod5">
-        <img src="/images/pod5.JPG" alt="" />
-        <p class="overlay">Surprise Season Stores</p>
-      </div>
+          <img
+            id="slide-3"
+            src="/images/pod3.JPG"
+            alt="Print on demand images." />
 
-      <div class="photo" id="pod6">
-        <img src="/images/pod6.JPG" alt="" />
-        <p class="overlay">Surprise Season Stores</p>
-      </div>
+          <img
+            id="slide-4"
+            src="/images/pod4.JPG"
+            alt="Print on demand images." />
 
-      <div class="photo" id="pod7">
-        <img src="/images/pod7.JPG" alt="" />
-        <p class="overlay">Surprise Season Stores</p>
-      </div>
+          <img
+            id="slide-5"
+            src="/images/pod5.JPG"
+            alt="Print on demand images." />
 
-      <div class="photo" id="pod8">
-        <img src="/images/pod8.JPG" alt="" />
-        <p class="overlay">Surprise Season Stores</p>
-      </div>
+          <img
+            id="slide-6"
+            src="/images/pod6.JPG"
+            alt="Print on demand images." />
 
-      <div class="photo" id="pod9">
-        <img src="/images/pod9.JPG" alt="" />
-        <p class="overlay">Surprise Season Stores</p>
+          <img
+            id="slide-7"
+            src="/images/pod7.JPG"
+            alt="Print on demand images." />
+
+          <img
+            id="slide-8"
+            src="/images/pod8.JPG"
+            alt="Print on demand images." />
+
+          <img
+            id="slide-9"
+            src="/images/pod9.JPG"
+            alt="Print on demand images." />
+            
+        </div>
+        <div class="slider-nav">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+          <a href="#slide-4"></a>
+          <a href="#slide-5"></a>
+          <a href="#slide-6"></a>
+          <a href="#slide-7"></a>
+          <a href="#slide-8"></a>
+          <a href="#slide-9"></a>
+        </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-image: url(/images/surp1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Baskerville Sc", serif;
+}
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 10px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: purple;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.design {
+    opacity: 50%;
+}
+

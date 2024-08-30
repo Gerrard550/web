@@ -190,10 +190,9 @@ a {
 
 .card-list .card-link .card-image {
     width: 100%;
-    aspect-ratio: 20 / 18;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 10px;
-
 }
 
 
@@ -277,6 +276,8 @@ a {
  background: #5372f0;
 
 }
+
+
 
 
 

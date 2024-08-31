@@ -72,6 +72,10 @@ h3 {
      
 }
 
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 a {
     text-decoration: none;
     color: mediumpurple
@@ -157,7 +161,7 @@ a {
   
   .slider {
     display: flex;
-    aspect-ratio: 6 / 5;
+    aspect-ratio: 20 / 18;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;

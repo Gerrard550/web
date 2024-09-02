@@ -61,6 +61,10 @@ h2 {
   margin-top: 12px;
 }
 
+h3 {
+  color: #100217;
+}
+
 p {
   font-family: var(--body-font);
   font-size: 40px;
@@ -452,7 +456,7 @@ h6 {
 .footer {
   display: flex;
   justify-content: center;
-  background-color: tomato;
+  background-color: var(--Steel-blue);
 }
 
 .footer .section-container {
@@ -462,8 +466,8 @@ h6 {
 }
 
 #footer-logo {
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 240px;
+  max-height: 240px;
   margin: 0 0 12px 0;
   /* border-radius: 50%; */
 }
@@ -492,6 +496,7 @@ margin: 10px 32px;
 
 .footer .col ul li a:hover {
   text-decoration: underline;
+   color: tomato;
 }
 
 .footer .social-media {
@@ -501,7 +506,9 @@ margin: 10px 32px;
 }
 
 .footer .social-media img {
-  width: 44px;
+  width: 80px;
+  height: 80px;
+  /* border-radius: 50%; */
 }
 
 .number {
@@ -511,3 +518,13 @@ margin: 10px 32px;
   margin: 20px 10px;
 }
 
+.phone-icon img {
+  width: 30px;
+  display: inline-block;
+}
+
+.chat img {
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 12px;
+}

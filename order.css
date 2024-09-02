@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+

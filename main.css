@@ -520,7 +520,9 @@ margin: 10px 32px;
 
 .phone-icon img {
   width: 30px;
-  display: inline-block;
+  display: inline;
+  
+  
 }
 
 .chat img {

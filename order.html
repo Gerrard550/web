@@ -7,13 +7,40 @@
     <link rel="stylesheet" href="order.css" />
   </head>
   <body>
+
+    <h1>
+      <span class="home"><a href="index.html">Home</a></span> >>> <span class="tracking"><a href="#"></a>Tracking</span>
+    </h1>
     <div class="order">
-      <h1>ORDER LOOKUP</h1>
+      <h2>ORDER LOOKUP</h2>
     </div>
 
-    <div class="email">
-      <h2>Email Address</h2>
-      <input type="email" name="Email" id="" size="50" />
-    </div>
+    <label for="Email">
+      <div class="email">
+        <h3>Email Address</h3>
+        <input
+          type="email"
+          name="Email"
+          id="address"
+          size="50"
+          placeholder="Email Address" />
+      </div>
+    </label>
+
+    <label for="order">
+      <div class="order">
+        <h3>Order Number</h3>
+        <input
+          type="number"
+          name="order"
+          id="order-number"
+          size="50"
+          placeholder="Order Number" />
+      </div>
+    </label>
+
+    <button class="button">
+      <a href="#">Find Order</a>
+    </button>
   </body>
 </html>

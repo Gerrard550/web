@@ -11,44 +11,6 @@ body {
     background-color: wheat;
     margin: 22px 0 12px 18px;
     overflow-x: hidden;
-    
-
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo img {
-    width: 200px;
-    height: 200px;
-    margin: 10px -10px 10px 20px;
-    border-radius: 50%;
-    transition: transform 2s ease-in-out;
-    animation-name: spin;
-    animation-duration: 3s;
-
-}
-
-@keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    50% {
-      transform: rotate(180deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-.logo img:hover {
-    cursor: pointer;
-  transform: scale(0.5);
 }
 
 h1 {
@@ -84,7 +46,7 @@ a {
 .design {
     opacity: 50%;
 }
-
+/* 
 .photo-grid {
     width: 100%;
     height: 100%;
@@ -97,9 +59,16 @@ a {
     
     grid-gap: 16px;
     
+    } */
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+      justify-content: center;
+      grid-gap: 16px;
     }
     
-    #colA {
+    /* #colA {
         grid-area: colA;
     }
     
@@ -133,12 +102,12 @@ a {
     
     #colI {
         grid-area: colI;
-    }
+    } */
 
 
 .photo-grid img {
-    width: 500px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
     cursor: pointer;
     border-radius: 20px;
     transition: transform 0.2s ease;
@@ -199,7 +168,7 @@ a {
 
   .slider img:hover {
     opacity: 50%;
-    transform: scale(0.9);
+    /* transform: scale(0.9); */
   
   }
   

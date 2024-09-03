@@ -5,14 +5,92 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100dvh;
 }
 
-h1 {
-    font-size: 80px;
+h2 {
+    font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
 }
+
+.email {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 120px 128px 0 0 ;
+
+    
+}
+
+#address {
+    font-size: 24px;
+    margin: 20px 0 8px 0;
+    width: 520px;
+    height: 60px;
+    border-radius: 12px;
+}
+
+.order {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 22px 128px 0 0 ;
+
+}
+
+#order-number {
+    font-size: 24px;
+    margin: 20px 0 8px 0;
+    width: 520px;
+    height: 60px;
+    border-radius: 12px;
+}
+
+.button {
+    width: 240px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 42px 120px 0 0 ;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: tomato;
+    border-radius: 8px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    font-size: 40px;
+    
+
+}
+.home a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.tracking {
+    font-size: 40px;
+    font-style: italic;
+    color: cadetblue;
+    opacity: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 

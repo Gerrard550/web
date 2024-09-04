@@ -40,33 +40,31 @@ body {
 }
 
 .navbar a:hover {
-    background-color: darkgray;
+  background-color: darkgray;
 }
 
 .navbar li ul.dropdown {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: orange;
-    position: absolute;
-    z-index: 999;
-    display: none;
-    visibility: visible;
-    opacity: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: orange;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  visibility: visible;
+  opacity: 0;
 }
 
 .navbar li ul.dropdown:hover {
-    opacity: 1;
-
-
+  opacity: 1;
 }
 
 a {
-    text-decoration: none;
-    color: #339e66ff
+  text-decoration: none;
+  color: #339e66ff;
 }
 a:hover {
-    color: white;
+  color: white;
 }
 
 .navbar ul li ul.dropdown {
@@ -95,19 +93,20 @@ h2 {
 }
 
 .photo-grid {
-width: 100%;
-margin: 20px;
-display: grid;
-grid-template-areas: 
-"colA colB colC"
-"colD colE colF"
-"colG colH colI";
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+  display: grid;
+  grid-template-areas:
+    "colA colB colC"
+    "colD colE colF"
+    "colG colH colI";
 
-grid-gap: 16px;
+  grid-gap: 16px;
 }
 
 #colA {
-    grid-area: colA;
+  grid-area: colA;
 }
 
 #colB {
@@ -115,42 +114,42 @@ grid-gap: 16px;
 }
 
 #colC {
-    grid-area: colC;
+  grid-area: colC;
 }
 
 #colD {
-    grid-area: colD;
+  grid-area: colD;
 }
 
 #colE {
-    grid-area: colE;
+  grid-area: colE;
 }
 
 #colF {
-    grid-area: colF;
+  grid-area: colF;
 }
 
 #colG {
-    grid-area: colG;
+  grid-area: colG;
 }
 
 #colH {
-    grid-area: colH;
+  grid-area: colH;
 }
 
 #colI {
-    grid-area: colI;
+  grid-area: colI;
 }
 
 .photo-grid img {
-    width: 500px;
-    height: 400px;
-    cursor: pointer;
-    border-radius: 20px;
+  width: 500px;
+  height: 400px;
+  cursor: pointer;
+  border-radius: 20px;
 }
 
 .photo-grid img:hover {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 /* FOOTER */

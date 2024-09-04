@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100dvh;
+    background-color: rgb(128, 180, 168);
 }
 
 h2 {
@@ -31,12 +32,14 @@ h2 {
     width: 520px;
     height: 60px;
     border-radius: 12px;
+    
 }
 
 .order {
     font-size: 24px;
     font-weight: bold;
     margin: 22px 128px 0 0 ;
+    
 
 }
 
@@ -67,18 +70,18 @@ h2 {
 
 .home {
     font-size: 40px;
-    
+  
 
 }
 .home a {
     text-decoration: none;
-    color: cadetblue;
+    color: #D64161FF;
 }
 
 .tracking {
     font-size: 40px;
     font-style: italic;
-    color: cadetblue;
+    color: #D64161FF;
     opacity: 50%;
 }
 

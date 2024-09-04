@@ -105,3 +105,87 @@ h3 {
     transform: scale(0.9);
 
 }
+
+/* FOOTER */
+
+.footer {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    background-color: lightskyblue;
+}
+
+
+  .footer .section-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  #footer-logo {
+    max-width: 240px;
+    max-height: 240px;
+    margin: 0 0 12px 0;
+    /* border-radius: 50%; */
+  }
+  
+  
+  
+  .footer .col {
+  font-size: 32px;
+  margin: 10px 32px;
+    width: 25%;
+  }
+  
+  .footer .col ul {
+    font-size: 30px;
+    display: inline-block;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    
+  }
+  
+  .footer .col ul li a {
+    text-decoration: none;
+  }
+  
+  .footer .col ul li a:hover {
+    text-decoration: underline;
+     color: tomato;
+  }
+  
+  .footer .social-media {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+  }
+  
+  .footer .social-media img {
+    width: 80px;
+    height: 80px;
+    /* border-radius: 50%; */
+  }
+  
+  .number {
+    font-size: 22px;
+    font-weight: bold;
+    color: darkgreen;
+    margin: 20px 10px;
+  }
+  
+  .phone-icon img {
+    width: 30px;
+    display: inline;
+    
+    
+  }
+  
+  .chat img {
+    display: inline;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 12px;
+  }
+  

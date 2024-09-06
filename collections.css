@@ -191,6 +191,11 @@ h2 {
 
 .footer .col ul li a {
   text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 32px;
+  letter-spacing: 2px;
+  padding: 8px;
 }
 
 .footer .col ul li a:hover {

@@ -93,6 +93,14 @@ h2 {
 }
 
 .photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  justify-content: center;
+  grid-gap: 64px;
+  margin: 20px 80px 0 12px;
+}
+/* 
+.photo-grid {
   width: 100%;
   height: 100%;
   margin: 20px;
@@ -139,10 +147,10 @@ h2 {
 
 #colI {
   grid-area: colI;
-}
+} */
 
 .photo-grid img {
-  width: 500px;
+  width: 400px;
   height: 400px;
   cursor: pointer;
   border-radius: 20px;
@@ -212,11 +220,12 @@ h2 {
 .footer .social-media img {
   width: 80px;
   height: 80px;
+  margin: 20px 5px;
   /* border-radius: 50%; */
 }
 
 .number {
-  font-size: 22px;
+  font-size: 32px;
   font-weight: bold;
   color: darkgreen;
   margin: 20px 10px;

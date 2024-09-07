@@ -1,5 +1,5 @@
 body {
-  margin: 20px 10px;
+  margin: 5px 5px;
   font-family: "Roboto Slab", serif;
   width: 100%;
   height: 100%;
@@ -35,7 +35,7 @@ h6 {
 }
 
 .navbar {
-  margin: -10px;
+  margin: auto;
 }
 
 .navbar ul {
@@ -65,7 +65,8 @@ p {
   font-size: 32px;
   font-weight: bold;
   color: black;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  margin: 12px 4px;
 }
 
 .surp {
@@ -106,7 +107,7 @@ p {
 
 .footer .col {
   font-size: 32px;
-  margin: 10px 32px;
+  margin: 10px 28px;
   width: 25%;
 }
 
@@ -115,7 +116,8 @@ p {
   display: inline-block;
   justify-content: space-between;
   list-style-type: none;
-  margin: 20px 0;
+  margin-left: 30px;
+
 }
 
 .footer .col ul li a {
@@ -125,6 +127,7 @@ p {
   font-size: 32px;
   letter-spacing: 2px;
   padding: 8px;
+  
 }
 
 .footer .col ul li a:hover {
@@ -142,7 +145,7 @@ p {
 .footer .social-media img {
   width: 80px;
   height: 80px;
-  margin: 12px 8px;
+  margin: 20px 60px;
 }
 
 .number {
@@ -154,6 +157,7 @@ p {
 .phone-icon img {
   width: 30px;
   display: inline;
+  margin: 5px;
 }
 
 .chat img {

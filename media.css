@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1100px) {
+    .photo-grid {
+       grid-template-areas: 
+       "drop1 drop1" 
+       "drop2 drop2"
+       "drop3 drop3" 
+       "drop4 drop4" 
+       "drop5 drop5"
+       "drop6 drop6"
+       "drop7 drop7"
+       "drop8 drop8";
+       max-width: 80%;
+    }
+
+    .about-section {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .store {
+        display: inline-block;
+    }
+}

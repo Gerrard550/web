@@ -37,7 +37,7 @@ html {
 body {
   font-family: var(--heading-font);
   color: var(--grey-2);
-  width: 100%;
+  max-width: 100%;
   background-color: lightblue;
   overflow-x: hidden;
 }
@@ -78,11 +78,10 @@ h6 {
 }
 
 .navbar {
-  max-width: 100%;
-  border: 2px solid white;
+  min-width: 100%;
+   border: 20px solid white;
   background-color: #FFC000;
-  z-index: 2;
-
+  margin: 0 3px;
 }
 
 .two-column {
@@ -548,9 +547,61 @@ margin: 10px 32px;
   margin-top: 12px;
 }
 
-@media only screen and (max-width: 430px) {
-.photo-grid {
-  display: block;
-  padding: 20px 20px;
+@media only screen and (max-width: 320px) {
+body {
+  background-color: rgb(218, 109, 207);
+  display: flex;
+  flex-direction: column;
+
+  
 }
+  
+.navbar {
+  
+  background-color: rgb(0, 255, 0);
+  width: 100%;
+  height: auto;
+  border: 2px solid white;
+  align-items: center;
+  
 }
+
+.two-column {
+  display: flex;
+  position: absolute;
+}
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1440px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-size: ;
+  }
+
+ 
+
+  .left img {
+    display: block;
+  }
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(1440px,1fr));
+    justify-content: center;
+    grid-gap: 64px;
+    margin: 20px 80px 0 12px;
+  }
+  }
+
+

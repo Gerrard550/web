@@ -211,13 +211,14 @@ h6 {
     margin-top: 12px;
   }
 
-  @media only screen and (max-width: 430px) {
+  @media only screen and (max-width: 320px) {
     .photo-grid {
       display: block;
+      margin: 16px 0 16px 0;
     }
 
     .footer {
-      width: 100%;
+      width: 1200px;
       height: auto;
     }
   }

@@ -214,6 +214,23 @@ h6 {
   color: white;
 }
 
+.menu-icon {
+  color: white;
+}
+
+.menu-icon  img{
+ width: 50px;
+}
+
+.sidebar {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  padding: 10px 10px;
+}
+
+
+
 /* GRID-SECTION */
 
 

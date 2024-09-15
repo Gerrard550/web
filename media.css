@@ -21,8 +21,11 @@
     }
 
     .menu-icon {
+        font-size: 15px;
         display: block;
-        margin: 0 -90px 0 90px;
+        margin: 0 90px 0px 90px;
+        cursor: pointer;
+    
     }
 
     .sidebar {

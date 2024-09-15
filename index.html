@@ -50,6 +50,14 @@
             ><img class="icons" src="/images/cart (2).png" alt="cart" />
           </a> -->
       </div>
+      <div class="sidebar">
+        <ul>
+          <li class="menu-icon"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">P.O.D</a></li>
+        </ul>
       </div>
     </nav>
     <!-- GRID SECTION -->
@@ -281,20 +289,16 @@
     </footer>
 
     <script>
-      let sidebar = document.getElementById("sidebar")
+      let sidebar = document.getElementById("sidebar");
       sidebar.style.maxHeight = "0px";
 
-      function togglemenu(){
-        if (sidebar.style.maxHeight = "0px")
-      {
-        sidebar.style.maxHeight = "300px";
+      function togglemenu() {
+        if (sidebar.style.maxHeight == "0px") {
+          sidebar.style.maxHeight = "300px";
+        } else {
+          sidebar.style.maxHeight = "0px";
+        }
       }
-      else {
-        sidebar.style.maxHeight = "0px";
-      }
-      }
-
-
     </script>
     <script
       src="https://kit.fontawesome.com/f8e1a90484.js"

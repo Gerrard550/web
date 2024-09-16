@@ -1,4 +1,10 @@
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 780px) {
+
+body {
+  /* position: fixed; */
+  scroll-behavior: smooth;
+}
+
     .photo-grid {
        grid-template-areas: 
        "drop1 drop1" 
@@ -20,23 +26,25 @@
         display: none;
     }
 
-    .menu-icon {
+    .menuicon {
         font-size: 15px;
         display: block;
         margin: 0 90px 0px 90px;
         cursor: pointer;
+        position: relative;
     
     }
 
     .sidebar {
         display: block;
-        padding: 0 -5px 0 0;
+        padding: 10px 50px 0 0;
+        position: absolute;
 
     }
 
     .left img {
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         margin: 10px -10px 10px 20px;
         border-radius: 50%;
         transition: transform 2s ease-in-out;
@@ -61,8 +69,10 @@
       .left img:hover {
         cursor: pointer;
         transform: scale(0.5);
-    }
+      }
 
+} #menuicon {
+  transition: all 0.5s;
 }
-
    
+

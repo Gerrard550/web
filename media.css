@@ -1,78 +1,73 @@
 @media only screen and (max-width: 780px) {
+  body {
+    /* position: fixed; */
+    scroll-behavior: smooth;
+  }
 
-body {
-  /* position: fixed; */
-  scroll-behavior: smooth;
+  .photo-grid {
+    grid-template-areas:
+      "drop1 drop1"
+      "drop2 drop2"
+      "drop3 drop3"
+      "drop4 drop4"
+      "drop5 drop5"
+      "drop6 drop6"
+      "drop7 drop7"
+      "drop8 drop8";
+    max-width: 80%;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .menuicon {
+    font-size: 15px;
+    display: block;
+    margin: 0 90px 0px 90px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .sidebar {
+    display: block;
+    padding: 10px 50px 0 0;
+    position: absolute;
+  }
+
+  .left img {
+    width: 100px;
+    height: 100px;
+    margin: 10px -10px 10px 20px;
+    border-radius: 50%;
+    transition: transform 2s ease-in-out;
+    animation-name: spin;
+    animation-duration: 3s;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    50% {
+      transform: rotate(180deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .left img:hover {
+    cursor: pointer;
+    transform: scale(0.5);
+  }
 }
-
-    .photo-grid {
-       grid-template-areas: 
-       "drop1 drop1" 
-       "drop2 drop2"
-       "drop3 drop3" 
-       "drop4 drop4" 
-       "drop5 drop5"
-       "drop6 drop6"
-       "drop7 drop7"
-       "drop8 drop8";
-       max-width: 80%;
-    }
-
-    .hide {
-        display: none;
-    }
-
-    .right {
-        display: none;
-    }
-
-    .menuicon {
-        font-size: 15px;
-        display: block;
-        margin: 0 90px 0px 90px;
-        cursor: pointer;
-        position: relative;
-    
-    }
-
-    .sidebar {
-        display: block;
-        padding: 10px 50px 0 0;
-        position: absolute;
-
-    }
-
-    .left img {
-        width: 100px;
-        height: 100px;
-        margin: 10px -10px 10px 20px;
-        border-radius: 50%;
-        transition: transform 2s ease-in-out;
-        animation-name: spin;
-        animation-duration: 3s;
-      }
-      
-      @keyframes spin {
-        0% {
-          transform: rotate(0deg);
-        }
-      
-        50% {
-          transform: rotate(180deg);
-        }
-      
-        100% {
-          transform: rotate(360deg);
-        }
-      }
-      
-      .left img:hover {
-        cursor: pointer;
-        transform: scale(0.5);
-      }
-
-} #menuicon {
+#menuicon {
   transition: all 0.5s;
 }
-   
-

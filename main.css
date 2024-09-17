@@ -531,13 +531,8 @@ h6 {
   display: flex;
   justify-content: center;
   margin: 20px;
-}
+  font-size: var(--h6-size);
 
-#footer-logo {
-  max-width: 240px;
-  max-height: 240px;
-  margin: 0 0 12px 0;
-  /* border-radius: 50%; */
 }
 
 
@@ -564,7 +559,7 @@ margin: 10px 32px;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: 2px;
   padding: 8px;
 }
@@ -582,29 +577,51 @@ margin: 10px 32px;
 .footer .social-media img {
   width: 80px;
   height: 80px;
-  margin: 12px 8px;
+  margin: 10px 6px;
   /* border-radius: 50%; */
 }
 
 
 
 .number {
-  font-size: 22px;
+  font-size: 14px;
   font-weight: bold;
   color: darkgreen;
   margin: 20px 10px;
 }
 
+.phone-icon {
+  font-size: 18px;
+}
+
 .phone-icon img {
   width: 30px;
   display: inline;
-  
-  
+
 }
+
+.footer .col {
+  font-size: 22px;
+}
+
+.footer .col ul li a {
+  font-size: 24px;
+}
+
+.footer .col .chat a {
+  display: block;
+  font-size: 16px;
+  color: black;
+  margin-right: 5px;
+  padding: 10px 0 0 2px;
+}
+
+
 
 .chat img {
   display: inline;
   width: 40px;
+  height: 40px;
   border-radius: 50%;
   margin-top: 12px;
 }

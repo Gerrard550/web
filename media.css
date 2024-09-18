@@ -1,7 +1,10 @@
+/* RESPONSIVNESS  FOR INDEX*/
+
 @media only screen and (max-width: 780px) {
   body {
     /* position: fixed; */
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   .photo-grid {
@@ -70,4 +73,23 @@
 }
 #menuicon {
   transition: all 0.5s;
+}
+
+
+/* RESPONSIVENESS FOR ABOUT */
+
+@media only screen and (max-width: 780px) {
+  body {
+    scroll-behavior: smooth;
+    background-color: rgb(173, 209, 173);
+  }
+
+  .navbar {
+    width: 100%;
+    border: 20px solid white;
+    padding: 10px 15px;
+  }
+
+
+
 }

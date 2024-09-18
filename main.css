@@ -6,11 +6,11 @@
   --body-font: "Edu VIC WA NT Beginner", cursive;
   --heading-font: "Quicksand", sans-serif;
   --h1-size: 64px;
-  --h2--size: 54px;
-  --h3-size: 44px;
-  --h4-size: 32px;
-  --h5-size: 28px;
-  --h6-size: 22px;
+  --h2--size: 44px;
+  --h3-size: 32px;
+  --h4-size: 28px;
+  --h5-size: 22px;
+  --h6-size: 16px;
 
   /* COLOR VARIABLES */
   --green-1: #339e66ff;
@@ -69,7 +69,7 @@ h3 {
 
 p {
   font-family: var(--body-font);
-  font-size: 40px;
+  font-size: 32px;
   padding: 25px;
 }
 
@@ -538,7 +538,7 @@ h6 {
 
 
 .footer .col {
-font-size: 32px;
+font-size: 22px;
 margin: 10px 32px;
   width: 25%;
 }

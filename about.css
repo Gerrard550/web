@@ -16,14 +16,14 @@ html {
 
 h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
   color: #00539cff;
-  height: 60px;
+  height: 20px;
   margin: 20px 10px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 16px;
   text-align: center;
   color: #00539cff;
   padding: 20px;
@@ -62,7 +62,7 @@ h6 {
 }
 
 p {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: bold;
   color: black;
   letter-spacing: 3px;
@@ -176,4 +176,20 @@ col .contact {
   margin: 20px;
   padding: 12px;
 
+}
+ 
+/* Responsivenss */
+
+@media only screen and (max-width: 780px) {
+  body {
+    width: 100%;
+    height: 100dvh;
+    background-color: rgba(210, 221, 169, 0.943);
+  }
+
+  .navbar {
+    width: 100%;
+    margin: 0 10px 0 -5px;
+   
+}
 }

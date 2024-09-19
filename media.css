@@ -7,6 +7,11 @@
     overflow-x: hidden;
   }
 
+  h1 {
+    font-size: 32px;
+    margin: 5px 15px;
+  }
+
   .photo-grid {
     grid-template-areas:
       "drop1 drop1"

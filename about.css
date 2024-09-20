@@ -261,5 +261,11 @@ col .contact {
     padding: 10px 0 0 2px;
   }
 
+  .adds {
+    color: #006400;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
 
 }

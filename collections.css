@@ -10,6 +10,7 @@ body {
   height: 100%;
   overflow-x: hidden;
   background-color: lightgray;
+
 }
 
 .navbar ul {
@@ -87,30 +88,30 @@ p {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 22px;
   color: #339e66ff;
   padding: 10px 0 10px 0;
 }
 
-.photo-grid {
+/* .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
   justify-content: center;
   grid-gap: 64px;
   margin: 20px 80px 0 12px;
-}
-/* 
+} */
+
 .photo-grid {
   width: 100%;
   height: 100%;
-  margin: 20px;
+  margin: 40px;
   display: grid;
   grid-template-areas:
     "colA colB colC"
     "colD colE colF"
     "colG colH colI";
 
-  grid-gap: 16px;
+  grid-gap: 6px;
 }
 
 #colA {
@@ -147,13 +148,14 @@ h2 {
 
 #colI {
   grid-area: colI;
-} */
+}
 
 .photo-grid img {
   width: 400px;
   height: 400px;
   cursor: pointer;
   border-radius: 20px;
+  margin-left: 20px;
 }
 
 .photo-grid img:hover {
@@ -163,6 +165,7 @@ h2 {
 /* FOOTER */
 
 .footer {
+  width: 100%;
   margin: 20px 10px;
   display: flex;
   justify-content: center;
@@ -201,9 +204,10 @@ h2 {
   text-decoration: none;
   display: flex;
   justify-content: space-between;
-  font-size: 32px;
+  font-size: 24px;
   letter-spacing: 2px;
   padding: 8px;
+  color: blue;
 }
 
 .footer .col ul li a:hover {
@@ -238,7 +242,156 @@ h2 {
 
 .chat img {
   display: inline;
-  width: 40px;
+  width: 30px;
   border-radius: 50%;
   margin-top: 12px;
+}
+
+.footer .col .chat a {
+  color: black;
+}
+
+@media only screen and (max-width: 780px) {
+  body {
+    background-color: #e69a8dff;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  .navbar ul {
+    background-color: #5f4b8bff;
+    width: 100%;
+    border: 20px solid rgba(255, 255, 255, 0.32);
+  }
+
+  .navbar .hide {
+    display: none;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px;
+    display: block;
+    text-align: center;
+  }
+
+  .navbar a:hover {
+    background-color: rgba(128, 124, 124, 0.16);
+  }
+
+  a {
+    text-decoration: none;
+    /* color: rgb(88, 210, 147); */
+  }
+  a:hover {
+    color: white;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2C5F2D;
+  }
+
+  /* GRID */
+  .photo-grid {
+    width: 100%;
+    height: 100%;
+    margin: 100px;
+    display: grid;
+    grid-template-areas:
+      "colA"
+      "colB"
+      "colC"
+      "colD"
+      "colE"
+      "colF"
+      "colG"
+      "colH"
+      "colI";
+
+    grid-gap: 2px;
+  }
+
+  #colA {
+    grid-area: colA;
+  }
+
+  #colB {
+    grid-area: colB;
+  }
+
+  #colC {
+    grid-area: colC;
+  }
+
+  #colD {
+    grid-area: colD;
+  }
+
+  #colE {
+    grid-area: colE;
+  }
+
+  #colF {
+    grid-area: colF;
+  }
+
+  #colG {
+    grid-area: colG;
+  }
+
+  #colH {
+    grid-area: colH;
+  }
+
+  #colI {
+    grid-area: colI;
+  }
+
+  .photo-grid img {
+    width: 230px;
+    height: 230px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 0 0px 0 -50px;
+  }
+
+  .photo-grid img:hover {
+    opacity: 50%;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .footer .col {
+    font-size: 22px;
+    margin: 10px 32px;
+    width: 25%;
+  }
+
+  .add {
+    color: rgb(15, 134, 100);
+  }
+
+  .number {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(15, 134, 100);
+    margin: 20px 10px;
+  }
+
+  .footer .col .chat a {
+    display: block;
+    font-size: 20px;
+    color: black;
+    margin-right: 5px;
+    padding: 10px 0 0 2px;
+  }
 }

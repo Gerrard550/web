@@ -581,6 +581,10 @@ margin: 10px 32px;
   /* border-radius: 50%; */
 }
 
+.footer .social-media img:hover {
+  opacity: 50%;
+}
+
 
 
 .number {

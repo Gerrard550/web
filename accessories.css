@@ -6,22 +6,23 @@
 
 body {
   background-color: pink;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: "Baskerville Sc", serif;
   overflow-x: hidden;
-  margin: 20px 15px;
+  text-wrap: balance;
+  text-align: center;
   
 }
+
+
 h1 {
-  font-size: 32px;
+  font-size: 42px;
   font-weight: bold;
   margin: 20px 30px;
 }
 
 h1 a {
   text-decoration: none;
-  color: purple;
+  color: rgb(89, 4, 89);
   margin: 20px;
 }
 
@@ -32,11 +33,12 @@ h2 {
 
 h3 {
   font-size: 22px;
+  letter-spacing: 4px;
   color: slateblue;
   text-align: center;
 }
 
-h6 {
+h4 {
   margin: 22px 8px;
   letter-spacing: 2px;
 }
@@ -45,25 +47,27 @@ h6 {
   opacity: 50%;
 }
 
-/* .photo-grid {
+ /* .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   justify-content: center;
-  grid-gap: 16px;
-  margin: 20px 80px 0 12px;
-} */
+  grid-gap: 64px;
+  margin: 5px 25px 0 25px;
+}  */
 
 .photo-grid {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: 50%;
     margin: 20px;
     display: grid;
     grid-template-areas: 
-    "colA colB colC"
-    "colD colE colF"
-    "colG colH colI";
+    "colA colB"
+    "colC colD"
+    "colE colF"
+    "colG colH" 
+    "colI colH";
     
-    grid-gap: 16px;
+    grid-gap: 8px;
     
     }
     
@@ -101,16 +105,16 @@ h6 {
     
     #colI {
         grid-area: colI;
-    } */
+    }  
 
 .photo-grid img {
   width: 400px;
   height: 400px;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 50px;
   transition: transform 0.2s ease;
- margin: 10px 20px;
-  object-fit: contain;
+ margin: 20px 40px;
+
 }
 
 .photo-grid img:hover {
@@ -125,27 +129,21 @@ h6 {
   display: flex;
   justify-content: center;
   background-color: #ffc000;
-  min-width: 100%;
+  max-width: 100%;
   min-height: 100%;
   overflow: hidden;
 }
 
 .footer .section-container {
   display: flex;
-  justify-content: center;
-  /* margin: 20px; */
+  justify-content: space-between;
+  margin: 40px;
 }
 
-#footer-logo {
-  max-width: 240px;
-  max-height: 240px;
-  margin: 0 0 12px 0;
-  /* border-radius: 50%; */
-}
 
 .footer .col {
-  font-size: 32px;
-  margin: 20px 10px 0px 10px;
+  font-size: 18px;
+  margin: 20px 5px 0px 40px;
   width: 25%;
 }
 
@@ -157,7 +155,7 @@ h6 {
 }
 
 .footer .col ul li a {
-  font-size: 28px;
+  font-size: 22px;
   text-decoration: none;
   display: flex;
   justify-content: space-evenly;
@@ -172,7 +170,7 @@ h6 {
 .footer .social-media {
   display: flex;
   align-items: center;
-  margin: 24px 0 24px 0;
+  margin: 24px 0 24px 40px;
 }
 
 .footer .social-media img {
@@ -205,22 +203,75 @@ h6 {
   
   body {
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    background-color: khaki;
 
   }
+
 
 
   .photo-grid {
     display: block;
-    margin: 16px 0 16px 0;
+    margin: 4px 0 4px 0;
+  }
+
+  .photo-grid img {
+    width: 260px;
+    height: 260px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+   margin: 10px 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin: 10px -10px 10px 10px;
+  }
+
+  h3 {
+    font-size: 22px;
+    letter-spacing: 4px;
+    color: teal;
+    text-align: center;
   }
 
   .footer {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    overflow: hidden;
+    background-color: coral;
   }
+
+  
+.footer .col {
+  font-size: 22px;
+  margin: 20px -5px 0px -2px;
+  width: 50%;
+ 
+}
+
+
+.footer .social-media img {
+  width: 40px;
+  height: 40px;
+  margin-right: 45px;
+}
+
+.number {
+  font-size: 16px;
+}
+
+.footer .col .chat a {
+  color: black;
+  font-size: 16px;
+  margin-right: 5px;
+
+}
 
   .hide {
     display: none;
   }
+
+
 }

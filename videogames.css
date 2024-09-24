@@ -88,6 +88,7 @@ h3 {
     #colI {
         grid-area: colI;
     }
+    
 
 
 .photo-grid img {
@@ -103,4 +104,88 @@ h3 {
     opacity: 50%;
     transform: scale(0.9);
 
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media only screen and (max-width: 780px) {
+    body {
+        max-width: 100%;
+        background-color: plum;
+    }
+
+    h3 {
+        font-size: 20px;
+        color: forestgreen;
+        text-align: center;
+        padding: 10px 50px;
+    }
+
+    .photo-grid {
+        width: 100%;
+        height: 100%;
+        margin: 100px;
+        display: grid;
+        grid-template-areas:
+          "colA"
+          "colB"
+          "colC"
+          "colD"
+          "colE"
+          "colF"
+          "colG"
+          "colH"
+          "colI";
+    
+        grid-gap: 2px;
+      }
+    
+      #colA {
+        grid-area: colA;
+      }
+    
+      #colB {
+        grid-area: colB;
+      }
+    
+      #colC {
+        grid-area: colC;
+      }
+    
+      #colD {
+        grid-area: colD;
+      }
+    
+      #colE {
+        grid-area: colE;
+      }
+    
+      #colF {
+        grid-area: colF;
+      }
+    
+      #colG {
+        grid-area: colG;
+      }
+    
+      #colH {
+        grid-area: colH;
+      }
+    
+      #colI {
+        grid-area: colI;
+      }
+    
+      .photo-grid img {
+        width: 250px;
+        height: 250px;
+        cursor: pointer;
+        border-radius: 20px;
+        margin: 0 0px 0 -50px;
+      }
+
+      .photo-grid img:hover {
+        opacity: 50%;
+      }
+    
 }
